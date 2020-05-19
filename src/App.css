@@ -1,0 +1,18 @@
+.video-item {
+  display: flex !important;
+  align-items: center;
+  cursor: pointer;
+}
+
+.view {
+  height: 30rem;
+}
+
+@media (max-width: 400px) {
+  .view {
+    height: 20rem;
+  }
+  .card {
+    position: fixed;
+  }
+}
